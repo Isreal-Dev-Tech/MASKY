@@ -647,7 +647,8 @@ case 'menu': {
 
                     await socket.sendMessage(sender, {
                         image: { url: config.IMAGE_PATH },
-                        caption: formatMessage(title, content, footer, contextInfo: maskyContext)
+                        caption: formatMessage(title, content, footer),
+                        contextInfo: maskyContext
                     });
                     break;
                 }
