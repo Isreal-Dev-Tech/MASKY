@@ -616,7 +616,7 @@ case 'menu': {
                             { buttonId: `${config.PREFIX}menu`, buttonText: { displayText: '📋 MENU' }, type: 1 },
                             { buttonId: `${config.PREFIX}alive`, buttonText: { displayText: '🤖 BOT INFO' }, type: 1 }
                         ]
-                    }
+                    });
                     break;     
                 }
 /*case 'uptime': {
