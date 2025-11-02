@@ -610,7 +610,7 @@ case 'menu': {
                     });  
                     await socket.sendMessage(sender, {
                       image: { url: config.BUTTON_IMAGES.OWNER },
-                      text: 'Feel Free To Contact Isreal Dev Tech For Any Issue Here => +2349057988345 '
+                      text: 'Feel Free To Contact Isreal Dev Tech For Any Issue Here => +2349057988345',
                         caption: '*👨‍💻 MASKY BOT OWNER DETAILS*',
                         buttons: [
                             { buttonId: `${config.PREFIX}menu`, buttonText: { displayText: '📋 MENU' }, type: 1 },
