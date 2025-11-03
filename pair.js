@@ -1187,7 +1187,7 @@ case 'gemini': {
 
     break;
 }
-case 'img'
+case 'img':
 case 'imagine': {
     if (!args[0]) return reply('🖼️ *Please provide a prompt to imagine!*\nExample: .imagine a cyberpunk city at night');
 
